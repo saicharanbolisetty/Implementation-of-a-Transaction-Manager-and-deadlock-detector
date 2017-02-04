@@ -1,0 +1,10170 @@
+Execution: 
+0
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1864783552	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1864783552	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1864783552	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1864783552	-1	 	P	-1
+
+leaving TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1864783552	-1	 	P	-1
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1864783552	-1	 	P	-1
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1759860416	-1	 	P	-1
+1	W	-1864783552	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1759860416	-1	 	P	-1
+1	W	-1864783552	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1759860416	-1	 	P	-1
+1	W	-1864783552	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1759860416	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1759860416	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1759860416	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+1
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-304060096	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-304060096	-1	 	P	-1
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-304060096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-123729600	-1	 	P	-1
+1	W	-304060096	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-123729600	-1	 	P	-1
+1	W	-304060096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-123729600	-1	 	P	-1
+1	W	-304060096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-123729600	-1	 	P	-1
+1	W	-304060096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-123729600	-1	 	P	-1
+1	W	-304060096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-123729600	-1	 	P	-1
+1	W	-304060096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-123729600	-1	 	P	-1
+1	W	-304060096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-123729600	-1	 	P	-1
+1	W	-304060096	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-123729600	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+2
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1653343936	-1	 	P	-1
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1653343936	-1	 	P	-1
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1653343936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1653343936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1480566464	-1	 	P	-1
+1	W	-1653343936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1480566464	-1	 	P	-1
+1	W	-1653343936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1480566464	-1	 	P	-1
+1	W	-1653343936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1480566464	-1	 	P	-1
+1	W	-1653343936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1480566464	-1	 	P	-1
+1	W	-1653343936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1480566464	-1	 	P	-1
+1	W	-1653343936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1480566464	-1	 	P	-1
+1	W	-1653343936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1480566464	-1	 	P	-1
+1	W	-1653343936	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+3
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1313421632	-1	 	P	-1
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1313421632	-1	 	P	-1
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1418332480	-1	 	P	-1
+1	W	1313421632	-1	 	P	-1
+
+leaving TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1418332480	-1	 	P	-1
+1	W	1313421632	-1	 	P	-1
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1418332480	-1	 	P	-1
+1	W	1313421632	-1	 	P	-1
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1418332480	-1	 	P	-1
+1	W	1313421632	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1418332480	-1	 	P	-1
+1	W	1313421632	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1418332480	-1	 	P	-1
+1	W	1313421632	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1418332480	-1	 	P	-1
+1	W	1313421632	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1313421632	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1313421632	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1313421632	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+4
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-2062816960	-1	 	P	-1
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-2062816960	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-2062816960	-1	 	P	-1
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1957906112	-1	 	P	-1
+1	W	-2062816960	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1957906112	-1	 	P	-1
+1	W	-2062816960	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1957906112	-1	 	P	-1
+1	W	-2062816960	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1957906112	-1	 	P	-1
+1	W	-2062816960	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1957906112	-1	 	P	-1
+1	W	-2062816960	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1957906112	-1	 	P	-1
+1	W	-2062816960	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1957906112	-1	 	P	-1
+1	W	-2062816960	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1957906112	-1	 	P	-1
+1	W	-2062816960	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1957906112	-1	 	P	-1
+1	W	-2062816960	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+5
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1189562688	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1189562688	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1189562688	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1189562688	-1	 	P	-1
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1294481728	-1	 	P	-1
+1	W	1189562688	-1	 	P	-1
+
+leaving TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1294481728	-1	 	P	-1
+1	W	1189562688	-1	 	P	-1
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1294481728	-1	 	P	-1
+1	W	1189562688	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1294481728	-1	 	P	-1
+1	W	1189562688	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1294481728	-1	 	P	-1
+1	W	1189562688	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1294481728	-1	 	P	-1
+1	W	1189562688	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1294481728	-1	 	P	-1
+1	W	1189562688	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1294481728	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+6
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	105085248	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	105085248	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	105085248	-1	 	P	-1
+
+leaving TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	209992000	-1	 	P	-1
+1	W	105085248	-1	 	P	-1
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	209992000	-1	 	P	-1
+1	W	105085248	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	209992000	-1	 	P	-1
+1	W	105085248	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	209992000	-1	 	P	-1
+1	W	105085248	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	209992000	-1	 	P	-1
+1	W	105085248	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	209992000	-1	 	P	-1
+1	W	105085248	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	209992000	-1	 	P	-1
+1	W	105085248	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	105085248	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	105085248	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+7
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1338320576	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1338320576	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1338320576	-1	 	P	-1
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1338320576	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1338320576	-1	 	P	-1
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1233401536	-1	 	P	-1
+1	W	-1338320576	-1	 	P	-1
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1233401536	-1	 	P	-1
+1	W	-1338320576	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1233401536	-1	 	P	-1
+1	W	-1338320576	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1233401536	-1	 	P	-1
+1	W	-1338320576	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1233401536	-1	 	P	-1
+1	W	-1338320576	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1233401536	-1	 	P	-1
+1	W	-1338320576	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1233401536	-1	 	P	-1
+1	W	-1338320576	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+8
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1756198592	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1756198592	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+
+leaving TxWrite
+1	W	-1756198592	-1	 	P	-1
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1756198592	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1756198592	-1	 	P	-1
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1651283648	-1	 	P	-1
+1	W	-1756198592	-1	 	P	-1
+
+leaving TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+write   2 62	W	-1651283648	-1	 	P	-1
+1	W	-1756198592	-1	 	P	-1
+
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1651283648	-1	 	P	-1
+1	W	-1756198592	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1651283648	-1	 	P	-1
+1	W	-1756198592	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1651283648	-1	 	P	-1
+1	W	-1756198592	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1651283648	-1	 	P	-1
+1	W	-1756198592	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1651283648	-1	 	P	-1
+1	W	-1756198592	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+9
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1060870464	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1060870464	-1	 	P	-1
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1060870464	-1	 	P	-1
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1060870464	-1	 	P	-1
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1165785408	-1	 	P	-1
+1	W	1060870464	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1165785408	-1	 	P	-1
+1	W	1060870464	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1165785408	-1	 	P	-1
+1	W	1060870464	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1165785408	-1	 	P	-1
+1	W	1060870464	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1165785408	-1	 	P	-1
+1	W	1060870464	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1165785408	-1	 	P	-1
+1	W	1060870464	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1165785408	-1	 	P	-1
+1	W	1060870464	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1165785408	-1	 	P	-1
+1	W	1060870464	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+10
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1868117696	-1	 	P	-1
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1868117696	-1	 	P	-1
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+printing the tx list 
+commit  2Tid	TxType	Thrid		objno	lock	status	semno
+
+2	W	-1763206848	-1	 	P	-1
+1	W	-1868117696	-1	 	P	-1
+Commit : 2
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1763206848	-1	 	P	-1
+1	W	-1868117696	-1	 	P	-1
+
+entering TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1763206848	-1	 	P	-1
+1	W	-1868117696	-1	 	P	-1
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1763206848	-1	 	P	-1
+1	W	-1868117696	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1763206848	-1	 	P	-1
+1	W	-1868117696	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1763206848	-1	 	P	-1
+1	W	-1868117696	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1763206848	-1	 	P	-1
+1	W	-1868117696	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1763206848	-1	 	P	-1
+1	W	-1868117696	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1763206848	-1	 	P	-1
+1	W	-1868117696	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1763206848	-1	 	P	-1
+1	W	-1868117696	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+11
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1038522048	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1038522048	-1	 	P	-1
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-933611200	-1	 	P	-1
+1	W	-1038522048	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-933611200	-1	 	P	-1
+
+leaving TxWrite
+1	W	-1038522048	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-933611200	-1	 	P	-1
+1	W	-1038522048	-1	 	P	-1
+read    2 6
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+Read : 2 : 6
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+
+entering TxRead
+2	W	-933611200	-1	 	P	-1
+1	W	-1038522048	-1	 	P	-1
+2	W	-933611200	-1	 	P	-1
+1	W	-1038522048	-1	 	P	-1
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-933611200	-1	 	P	-1
+1	W	-1038522048	-1	 	P	-1
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-933611200	-1	 	P	-1
+1	W	-1038522048	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-933611200	-1	 	P	-1
+1	W	-1038522048	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1038522048	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1038522048	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+12
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	581941568	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	581941568	-1	 	P	-1
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	581941568	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	686852416	-1	 	P	-1
+1	W	581941568	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	686852416	-1	 	P	-1
+1	W	581941568	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	686852416	-1	 	P	-1
+1	W	581941568	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	686852416	-1	 	P	-1
+1	W	581941568	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	686852416	-1	 	P	-1
+1	W	581941568	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	581941568	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	581941568	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	581941568	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	581941568	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+13
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1171659072	-1	 	P	-1
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1171659072	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1171659072	-1	 	P	-1
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1171659072	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1171659072	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1276574016	-1	 	P	-1
+1	W	1171659072	-1	 	P	-1
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1276574016	-1	 	P	-1
+1	W	1171659072	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1276574016	-1	 	P	-1
+1	W	1171659072	-1	 	P	-1
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1276574016	-1	 	P	-1
+1	W	1171659072	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1276574016	-1	 	P	-1
+1	W	1171659072	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1276574016	-1	 	P	-1
+1	W	1171659072	-1	 	E	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1276574016	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+14
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-548288192	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-548288192	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-548288192	-1	 	P	-1
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-548288192	-1	 	P	-1
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-443373248	-1	 	P	-1
+1	W	-548288192	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-443373248	-1	 	P	-1
+1	W	-548288192	-1	 	P	-1
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-443373248	-1	 	P	-1
+1	W	-548288192	-1	 	P	-1
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-443373248	-1	 	P	-1
+1	W	-548288192	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-443373248	-1	 	P	-1
+1	W	-548288192	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-443373248	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-443373248	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-443373248	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+15
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-446756544	-1	 	P	-1
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-446756544	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+1	W	-446756544	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-341845696	-1	 	P	-1
+1	W	-446756544	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-341845696	-1	 	P	-1
+1	W	-446756544	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-341845696	-1	 	P	-1
+1	W	-446756544	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-341845696	-1	 	P	-1
+1	W	-446756544	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-341845696	-1	 	P	-1
+1	W	-446756544	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-341845696	-1	 	P	-1
+1	W	-446756544	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-341845696	-1	 	P	-1
+1	W	-446756544	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-446756544	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-446756544	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+16
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	757483840	-1	 	P	-1
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	757483840	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	757483840	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	757483840	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	757483840	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	757483840	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	757483840	-1	 	P	-1
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	757483840	-1	 	P	-1
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	862415168	-1	 	P	-1
+1	W	757483840	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	862415168	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	862415168	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	862415168	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+17
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1194273088	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1194273088	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1194273088	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1194273088	-1	 	P	-1
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1194273088	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1194273088	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1299192128	-1	 	P	-1
+1	W	1194273088	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1299192128	-1	 	P	-1
+1	W	1194273088	-1	 	P	-1
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1299192128	-1	 	P	-1
+1	W	1194273088	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1299192128	-1	 	P	-1
+1	W	1194273088	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1299192128	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1299192128	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+18
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	714537280	-1	 	P	-1
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	714537280	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	714537280	-1	 	P	-1
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	714537280	-1	 	P	-1
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	889235776	-1	 	P	-1
+1	W	714537280	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	889235776	-1	 	P	-1
+1	W	714537280	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	889235776	-1	 	P	-1
+1	W	714537280	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	889235776	-1	 	P	-1
+1	W	714537280	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	889235776	-1	 	P	-1
+1	W	714537280	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	889235776	-1	 	P	-1
+1	W	714537280	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	889235776	-1	 	P	-1
+1	W	714537280	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	889235776	-1	 	E	-1
+1	W	714537280	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+19
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1337099968	-1	 	P	-1
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1337099968	-1	 	P	-1
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1337099968	-1	 	P	-1
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1232189120	-1	 	P	-1
+1	W	-1337099968	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1232189120	-1	 	P	-1
+1	W	-1337099968	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1232189120	-1	 	P	-1
+1	W	-1337099968	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1232189120	-1	 	P	-1
+1	W	-1337099968	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1232189120	-1	 	P	-1
+1	W	-1337099968	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1232189120	-1	 	P	-1
+1	W	-1337099968	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1337099968	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1337099968	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1337099968	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+20
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	46192960	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	46192960	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	46192960	-1	 	P	-1
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	46192960	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	46192960	-1	 	P	-1
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	46192960	-1	 	P	-1
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	151112000	-1	 	P	-1
+1	W	46192960	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	151112000	-1	 	P	-1
+1	W	46192960	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	151112000	-1	 	P	-1
+1	W	46192960	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	151112000	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	151112000	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	151112000	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+21
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-232015552	-1	 	P	-1
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-232015552	-1	 	P	-1
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-232015552	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-232015552	-1	 	P	-1
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-127096512	-1	 	P	-1
+1	W	-232015552	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-127096512	-1	 	P	-1
+1	W	-232015552	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-127096512	-1	 	P	-1
+1	W	-232015552	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-127096512	-1	 	P	-1
+1	W	-232015552	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-127096512	-1	 	P	-1
+1	W	-232015552	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-127096512	-1	 	P	-1
+1	W	-232015552	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-127096512	-1	 	P	-1
+1	W	-232015552	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-127096512	-1	 	P	-1
+1	W	-232015552	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+22
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1004263104	-1	 	P	-1
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1004263104	-1	 	P	-1
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1004263104	-1	 	P	-1
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-899352256	-1	 	P	-1
+1	W	-1004263104	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-899352256	-1	 	P	-1
+1	W	-1004263104	-1	 	P	-1
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-899352256	-1	 	P	-1
+1	W	-1004263104	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-899352256	-1	 	P	-1
+1	W	-1004263104	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-899352256	-1	 	P	-1
+1	W	-1004263104	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-899352256	-1	 	P	-1
+1	W	-1004263104	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-899352256	-1	 	P	-1
+1	W	-1004263104	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-899352256	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-899352256	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+23
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-625174208	-1	 	P	-1
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-625174208	-1	 	P	-1
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-625174208	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+2	W	-520263360	-1	 	P	-1
+1	W	-625174208	-1	 	P	-1
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-520263360	-1	 	P	-1
+1	W	-625174208	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-520263360	-1	 	P	-1
+1	W	-625174208	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-520263360	-1	 	P	-1
+1	W	-625174208	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-520263360	-1	 	P	-1
+1	W	-625174208	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-520263360	-1	 	P	-1
+1	W	-625174208	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-520263360	-1	 	P	-1
+1	W	-625174208	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-520263360	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-520263360	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+24
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1612854976	-1	 	P	-1
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1612854976	-1	 	P	-1
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1507944128	-1	 	P	-1
+1	W	-1612854976	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1507944128	-1	 	P	-1
+1	W	-1612854976	-1	 	P	-1
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1507944128	-1	 	P	-1
+1	W	-1612854976	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1507944128	-1	 	P	-1
+1	W	-1612854976	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1507944128	-1	 	P	-1
+1	W	-1612854976	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1507944128	-1	 	P	-1
+1	W	-1612854976	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1507944128	-1	 	P	-1
+1	W	-1612854976	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1507944128	-1	 	P	-1
+1	W	-1612854976	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1507944128	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1507944128	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+25
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1251768000	-1	 	P	-1
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1251768000	-1	 	P	-1
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1251768000	-1	 	P	-1
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1146857152	-1	 	P	-1
+1	W	-1251768000	-1	 	P	-1
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1146857152	-1	 	P	-1
+1	W	-1251768000	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1146857152	-1	 	P	-1
+1	W	-1251768000	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1146857152	-1	 	P	-1
+1	W	-1251768000	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1146857152	-1	 	P	-1
+1	W	-1251768000	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1146857152	-1	 	P	-1
+1	W	-1251768000	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1146857152	-1	 	P	-1
+1	W	-1251768000	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1146857152	-1	 	P	-1
+1	W	-1251768000	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1146857152	-1	 	E	-1
+1	W	-1251768000	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+26
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1829783232	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1829783232	-1	 	P	-1
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1829783232	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1829783232	-1	 	P	-1
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1724872384	-1	 	P	-1
+1	W	-1829783232	-1	 	P	-1
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1724872384	-1	 	P	-1
+1	W	-1829783232	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1724872384	-1	 	P	-1
+1	W	-1829783232	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1724872384	-1	 	P	-1
+1	W	-1829783232	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1724872384	-1	 	P	-1
+1	W	-1829783232	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1724872384	-1	 	P	-1
+1	W	-1829783232	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1724872384	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1724872384	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+27
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1570748096	-1	 	P	-1
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1570748096	-1	 	P	-1
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+printing the tx list 
+Commit : 1
+
+
+entering TxCommit
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1570748096	-1	 	P	-1
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1570748096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1465833152	-1	 	P	-1
+1	W	-1570748096	-1	 	P	-1
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1465833152	-1	 	P	-1
+1	W	-1570748096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1465833152	-1	 	P	-1
+1	W	-1570748096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1465833152	-1	 	P	-1
+1	W	-1570748096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1465833152	-1	 	P	-1
+1	W	-1570748096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1465833152	-1	 	P	-1
+1	W	-1570748096	-1	 	E	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1465833152	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1465833152	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+28
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-196286144	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-196286144	-1	 	P	-1
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-196286144	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-14653120	-1	 	P	-1
+1	W	-196286144	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-14653120	-1	 	P	-1
+1	W	-196286144	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-14653120	-1	 	P	-1
+1	W	-196286144	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-14653120	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-14653120	-1	 	P	-1
+1	W	-196286144	-1	 	P	-1
+1	W	-196286144	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-14653120	-1	 	P	-1
+1	W	-196286144	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-14653120	-1	 	P	-1
+1	W	-196286144	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-14653120	-1	 	P	-1
+1	W	-196286144	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-14653120	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+29
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1287747904	-1	 	P	-1
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1287747904	-1	 	P	-1
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1287747904	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1461737792	-1	 	P	-1
+1	W	1287747904	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1461737792	-1	 	P	-1
+1	W	1287747904	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1461737792	-1	 	P	-1
+1	W	1287747904	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1461737792	-1	 	P	-1
+1	W	1287747904	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1461737792	-1	 	P	-1
+1	W	1287747904	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1461737792	-1	 	P	-1
+1	W	1287747904	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1461737792	-1	 	P	-1
+1	W	1287747904	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1287747904	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1287747904	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+30
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	985258304	-1	 	P	-1
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	985258304	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	985258304	-1	 	P	-1
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	985258304	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1090169152	-1	 	P	-1
+1	W	985258304	-1	 	P	-1
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1090169152	-1	 	P	-1
+1	W	985258304	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1090169152	-1	 	P	-1
+1	W	985258304	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1090169152	-1	 	P	-1
+1	W	985258304	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1090169152	-1	 	P	-1
+1	W	985258304	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1090169152	-1	 	P	-1
+1	W	985258304	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1090169152	-1	 	P	-1
+1	W	985258304	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1090169152	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+31
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-469161664	-1	 	P	-1
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-469161664	-1	 	P	-1
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-469161664	-1	 	P	-1
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-364250816	-1	 	P	-1
+1	W	-469161664	-1	 	P	-1
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-364250816	-1	 	P	-1
+1	W	-469161664	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-364250816	-1	 	P	-1
+1	W	-469161664	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-364250816	-1	 	P	-1
+1	W	-469161664	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-364250816	-1	 	P	-1
+1	W	-469161664	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-469161664	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-469161664	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-469161664	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-469161664	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+32
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1193182912	-1	 	P	-1
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1193182912	-1	 	P	-1
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1088272064	-1	 	P	-1
+1	W	-1193182912	-1	 	P	-1
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1088272064	-1	 	P	-1
+1	W	-1193182912	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1088272064	-1	 	P	-1
+1	W	-1193182912	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1088272064	-1	 	P	-1
+1	W	-1193182912	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1088272064	-1	 	P	-1
+1	W	-1193182912	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1088272064	-1	 	P	-1
+1	W	-1193182912	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1088272064	-1	 	P	-1
+1	W	-1193182912	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1088272064	-1	 	E	-1
+1	W	-1193182912	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1193182912	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1193182912	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+33
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1380054720	-1	 	P	-1
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1380054720	-1	 	P	-1
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1380054720	-1	 	P	-1
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1275143872	-1	 	P	-1
+1	W	-1380054720	-1	 	P	-1
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1275143872	-1	 	P	-1
+1	W	-1380054720	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1275143872	-1	 	P	-1
+1	W	-1380054720	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1275143872	-1	 	P	-1
+1	W	-1380054720	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1275143872	-1	 	P	-1
+1	W	-1380054720	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1275143872	-1	 	P	-1
+1	W	-1380054720	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1275143872	-1	 	P	-1
+1	W	-1380054720	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1275143872	-1	 	P	-1
+1	W	-1380054720	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1275143872	-1	 	P	-1
+1	W	-1380054720	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+34
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1326233280	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1326233280	-1	 	P	-1
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1326233280	-1	 	P	-1
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1221322432	-1	 	P	-1
+1	W	-1326233280	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1221322432	-1	 	P	-1
+1	W	-1326233280	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1221322432	-1	 	P	-1
+1	W	-1326233280	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1221322432	-1	 	P	-1
+printing the tx list 
+1	W	-1326233280	-1	 	P	-1
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1221322432	-1	 	P	-1
+1	W	-1326233280	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1221322432	-1	 	P	-1
+1	W	-1326233280	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1221322432	-1	 	P	-1
+1	W	-1326233280	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1326233280	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1326233280	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+35
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	680794432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	680794432	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	680794432	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	785705280	-1	 	P	-1
+1	W	680794432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	785705280	-1	 	P	-1
+1	W	680794432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	785705280	-1	 	P	-1
+1	W	680794432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	785705280	-1	 	P	-1
+1	W	680794432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	785705280	-1	 	P	-1
+1	W	680794432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	785705280	-1	 	P	-1
+1	W	680794432	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	680794432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	680794432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	680794432	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+36
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-870487744	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-870487744	-1	 	P	-1
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-975386304	-1	 	P	-1
+2	W	-870487744	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-975386304	-1	 	P	-1
+2	W	-870487744	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-975386304	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-975386304	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-975386304	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-975386304	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-975386304	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-975386304	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-975386304	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-975386304	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+37
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-646301376	-1	 	P	-1
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-646301376	-1	 	P	-1
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-541394624	-1	 	P	-1
+1	W	-646301376	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-541394624	-1	 	P	-1
+1	W	-646301376	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-541394624	-1	 	P	-1
+1	W	-646301376	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-541394624	-1	 	P	-1
+1	W	-646301376	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-541394624	-1	 	P	-1
+1	W	-646301376	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-541394624	-1	 	P	-1
+1	W	-646301376	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-541394624	-1	 	P	-1
+1	W	-646301376	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-541394624	-1	 	P	-1
+1	W	-646301376	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-541394624	-1	 	P	-1
+1	W	-646301376	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-541394624	-1	 	P	-1
+1	W	-646301376	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+38
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-4478656	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-4478656	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-4478656	-1	 	P	-1
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-4478656	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-4478656	-1	 	P	-1
+
+leaving BeginTx
+read    2 5
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	100436288	-1	 	P	-1
+1	W	-4478656	-1	 	P	-1
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	100436288	-1	 	P	-1
+1	W	-4478656	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	100436288	-1	 	P	-1
+1	W	-4478656	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	100436288	-1	 	P	-1
+1	W	-4478656	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	100436288	-1	 	P	-1
+1	W	-4478656	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	100436288	-1	 	P	-1
+1	W	-4478656	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	100436288	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+39
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-726210240	-1	 	P	-1
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-726210240	-1	 	P	-1
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-726210240	-1	 	P	-1
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-726210240	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-621295296	-1	 	P	-1
+1	W	-726210240	-1	 	P	-1
+
+leaving TxRead
+commit  2printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-621295296	-1	 	P	-1
+1	W	-726210240	-1	 	P	-1
+
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-621295296	-1	 	P	-1
+1	W	-726210240	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-621295296	-1	 	P	-1
+1	W	-726210240	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-621295296	-1	 	P	-1
+1	W	-726210240	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-621295296	-1	 	P	-1
+1	W	-726210240	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-621295296	-1	 	P	-1
+1	W	-726210240	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+printing the tx list 
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-621295296	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+40
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1792915136	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1792915136	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1792915136	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1688004288	-1	 	P	-1
+1	W	-1792915136	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1688004288	-1	 	P	-1
+1	W	-1792915136	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1688004288	-1	 	P	-1
+1	W	-1792915136	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1688004288	-1	 	P	-1
+1	W	-1792915136	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-1688004288	-1	 	P	-1
+1	W	-1792915136	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1792915136	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1792915136	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1792915136	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-1792915136	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+41
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	768510272	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	768510272	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	768510272	-1	 	P	-1
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	873421120	-1	 	P	-1
+1	W	768510272	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	873421120	-1	 	P	-1
+1	W	768510272	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	873421120	-1	 	P	-1
+1	W	768510272	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	873421120	-1	 	P	-1
+1	W	768510272	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	873421120	-1	 	P	-1
+1	W	768510272	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	873421120	-1	 	P	-1
+1	W	768510272	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	873421120	-1	 	P	-1
+1	W	768510272	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	873421120	-1	 	P	-1
+1	W	768510272	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	873421120	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+42
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	632736064	-1	 	P	-1
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	632736064	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	632736064	-1	 	P	-1
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	737646912	-1	 	P	-1
+1	W	632736064	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	737646912	-1	 	P	-1
+1	W	632736064	-1	 	P	-1
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	737646912	-1	 	P	-1
+1	W	632736064	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	737646912	-1	 	P	-1
+1	W	632736064	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	737646912	-1	 	P	-1
+1	W	632736064	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	737646912	-1	 	P	-1
+1	W	632736064	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	737646912	-1	 	P	-1
+1	W	632736064	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	737646912	-1	 	P	-1
+1	W	632736064	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	737646912	-1	 	P	-1
+1	W	632736064	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+43
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1231169856	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1231169856	-1	 	P	-1
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1231169856	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1231169856	-1	 	P	-1
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1336080704	-1	 	P	-1
+1	W	1231169856	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1336080704	-1	 	P	-1
+1	W	1231169856	-1	 	P	-1
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1336080704	-1	 	P	-1
+1	W	1231169856	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1336080704	-1	 	P	-1
+1	W	1231169856	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1336080704	-1	 	P	-1
+1	W	1231169856	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1336080704	-1	 	P	-1
+1	W	1231169856	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1336080704	-1	 	P	-1
+1	W	1231169856	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	1231169856	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+44
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-936138432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-936138432	-1	 	P	-1
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-936138432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-936138432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-831231680	-1	 	P	-1
+1	W	-936138432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-831231680	-1	 	P	-1
+1	W	-936138432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-831231680	-1	 	P	-1
+1	W	-936138432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-831231680	-1	 	P	-1
+1	W	-936138432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-831231680	-1	 	P	-1
+1	W	-936138432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-831231680	-1	 	P	-1
+1	W	-936138432	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-831231680	-1	 	P	-1
+1	W	-936138432	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-936138432	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+45
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-96863936	-1	 	P	-1
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-96863936	-1	 	P	-1
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-96863936	-1	 	P	-1
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-96863936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	8046912	-1	 	P	-1
+1	W	-96863936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	8046912	-1	 	P	-1
+1	W	-96863936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	8046912	-1	 	P	-1
+1	W	-96863936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	8046912	-1	 	P	-1
+1	W	-96863936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	8046912	-1	 	P	-1
+1	W	-96863936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	8046912	-1	 	P	-1
+1	W	-96863936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	8046912	-1	 	P	-1
+1	W	-96863936	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	8046912	-1	 	P	-1
+1	W	-96863936	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+46
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	873908544	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	873908544	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	873908544	-1	 	P	-1
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	978823488	-1	 	P	-1
+1	W	873908544	-1	 	P	-1
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	978823488	-1	 	P	-1
+1	W	873908544	-1	 	P	-1
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	978823488	-1	 	P	-1
+1	W	873908544	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	978823488	-1	 	P	-1
+1	W	873908544	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	978823488	-1	 	P	-1
+1	W	873908544	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	978823488	-1	 	P	-1
+1	W	873908544	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	978823488	-1	 	P	-1
+1	W	873908544	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	978823488	-1	 	P	-1
+1	W	873908544	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	873908544	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+47
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	414722368	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	414722368	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	414722368	-1	 	P	-1
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	414722368	-1	 	P	-1
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	519633216	-1	 	P	-1
+1	W	414722368	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	519633216	-1	 	P	-1
+1	W	414722368	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	519633216	-1	 	P	-1
+1	W	414722368	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	519633216	-1	 	P	-1
+1	W	414722368	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	519633216	-1	 	P	-1
+1	W	414722368	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	519633216	-1	 	P	-1
+1	W	414722368	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	519633216	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	519633216	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+48
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-878171840	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-878171840	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-878171840	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-878171840	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-878171840	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-878171840	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-878171840	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-878171840	-1	 	P	-1
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-773244608	-1	 	P	-1
+1	W	-878171840	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-773244608	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-773244608	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-773244608	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+49
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	675014976	-1	 	P	-1
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	675014976	-1	 	P	-1
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	675014976	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	675014976	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	675014976	-1	 	P	-1
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	779925824	-1	 	P	-1
+1	W	675014976	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	779925824	-1	 	P	-1
+1	W	675014976	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	779925824	-1	 	P	-1
+1	W	675014976	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	779925824	-1	 	P	-1
+1	W	675014976	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	779925824	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	779925824	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	779925824	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+50
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	2019404096	-1	 	P	-1
+
+leaving TxWrite
+read    1 1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	2019404096	-1	 	P	-1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	2019404096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	2124314944	-1	 	P	-1
+1	W	2019404096	-1	 	P	-1
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	2124314944	-1	 	P	-1
+1	W	2019404096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	2124314944	-1	 	P	-1
+1	W	2019404096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+printing the tx list 
+2	W	2124314944	-1	 	P	-1
+1	W	2019404096	-1	 	P	-1
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	2124314944	-1	 	P	-1
+1	W	2019404096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	2124314944	-1	 	P	-1
+1	W	2019404096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	2124314944	-1	 	P	-1
+1	W	2019404096	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	2019404096	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	2019404096	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+51
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	936634688	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	936634688	-1	 	P	-1
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	936634688	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	936634688	-1	 	P	-1
+
+leaving TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	936634688	-1	 	P	-1
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	936634688	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1041557824	-1	 	P	-1
+1	W	936634688	-1	 	P	-1
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1041557824	-1	 	P	-1
+1	W	936634688	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1041557824	-1	 	P	-1
+1	W	936634688	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1041557824	-1	 	P	-1
+1	W	936634688	-1	 	E	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1041557824	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	1041557824	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+Execution: 
+52
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	625379648	-1	 	P	-1
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	625379648	-1	 	P	-1
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+printing the tx list 
+commit 1
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	625379648	-1	 	P	-1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	730294592	-1	 	P	-1
+1	W	625379648	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	730294592	-1	 	P	-1
+1	W	625379648	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	730294592	-1	 	P	-1
+1	W	625379648	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	730294592	-1	 	P	-1
+1	W	625379648	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	730294592	-1	 	P	-1
+1	W	625379648	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	730294592	-1	 	P	-1
+1	W	625379648	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	730294592	-1	 	P	-1
+1	W	625379648	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	625379648	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	625379648	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+53
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-911738560	-1	 	P	-1
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-911738560	-1	 	P	-1
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-806831808	-1	 	P	-1
+1	W	-911738560	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-806831808	-1	 	P	-1
+1	W	-911738560	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-806831808	-1	 	P	-1
+1	W	-911738560	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-806831808	-1	 	P	-1
+1	W	-911738560	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-806831808	-1	 	P	-1
+1	W	-911738560	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-806831808	-1	 	P	-1
+1	W	-911738560	-1	 	P	-1
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	-806831808	-1	 	E	-1
+1	W	-911738560	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-911738560	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-911738560	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	-911738560	-1	 	P	-1
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Execution: 
+54
+// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1 W
+BeginTx : 1
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+write   1 2
+Write : 1 : 2
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	354330944	-1	 	P	-1
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2 W
+BeginTx : 2
+
+TxType : W
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+1	W	354330944	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	459237696	-1	 	P	-1
+1	W	354330944	-1	 	P	-1
+
+leaving TxWrite
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	459237696	-1	 	P	-1
+1	W	354330944	-1	 	P	-1
+printing the tx list 
+Tid	TxType	Thrid		objno	lock	status	semno
+2	W	459237696	-1	 	P	-1
+1	W	354330944	-1	 	P	-1
